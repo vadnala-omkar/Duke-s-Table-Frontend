@@ -32,7 +32,7 @@ const Navbar = () => {
           <button onClick={() => navigate("/cart")} className="hover:text-orange-500 flex items-center cursor-pointer">
             <ShoppingCart className="mr-1" size={20} /> Cart
           </button>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 cursor-pointer">Admin</a>
+          <a href="https://dukes-table-admin-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 cursor-pointer">Admin</a>
 
           <button  onClick={() => navigate("/login")} className="hover:text-orange-500 cursor-pointer">Login</button>
         </div>
